@@ -1,67 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Mallory's Design Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Beautiful graphic designs">
-    <meta name="keywords" content="graphic, design, freelance, photography">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <img src="img/mallory-01.png" alt="logo">
-    <nav>
-    <ul>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a href="about.html">ABOUT ME</a></li>
-        <li><a href="index.html">HOME</a></li>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="animation-area">
+            <ul class="box-area">
+            <h1>Choose Your Fighter!</h1>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li> 
+        <img src="fighters.jpg" alt="Smash Fighters" class="center">
+        <input type="text" id="fighter-name" placeholder="Name">
+        <input type="text" id="fighter-color" placeholder="Color">
+        <input type="text" id="fighter-style" placeholder="Style">
+        <input type="text" id="fighter-stock" placeholder="Stock">
+        <input type="text" id="fighter-hp" placeholder="HP">
+        <button id="add-button">Add</button>
+        <button id="update-button">Update</button>
+        <div class="container">
+            <ol id="fighters-list"></ol>
+        </div>
+        <script src="app.js"></script>
         </ul>
-    </nav>
-    <img src="img/header.png" alt="header" style="max-width:100%">
-    <h1>WELCOME TO MY PORTFOLIO!</h1>
-    <p id="intro">I've been working in graphic design for 7yrs and loved every minute of it! My work experiences spans across multiple medias including but not limited to: layout, print, email and web design.</p>
-
-    <div class="row">
-        <div class="column">
-            <h1>I AM A FREELANCE GRAPHIC DESIGNER</h1>
-            <img src="img/columnicons-02.png" style="max-width:300px">
         </div>
-        
-        <div class="column2">
-            <h1 class="header1">AND A DESIGN INSTRUCTOR</h1>
-            <img src="img/columnicons-01.png" style="max-width:300px">
-        </div>
-    </div>
-
-    <h1>TAKE A LOOK AT SOME OF MY WORK</h1>
-    <p id="intro2">Over the years, I've created countless designs. Below are a few of my favorites. Visit my <a href="portfolio.html">portfolio page</a> to look at more of my work!</p>
-    
-    <div id="container">
-        
-        <div class="gallery">
-        <a href="img/portfolio-1.jpg" target="_blank"><img src="img/portfolio-1.jpg" alt="portfolio" width="900px" height="600px"></a></div>
-
-        <div class="gallery">
-        <a href="img/portfolio-2.jpg" target="_blank"><img src="img/portfolio-2.jpg" alt="portfolio" width="900px" height="600px"></a></div>
-
-        <div class="gallery">
-        <a href="img/portfolio-3.jpg" target="_blank"><img src="img/portfolio-3.jpg" alt="portfolio" width="900px" height="600px"></a></div>   
-
-    </div>
-    
-    <footer>
-        <div class="row">
-        <div class="column">
-        <p>CONTACT INFORMATION</p>
-        <p><a href="portfolio.html">PORTFOLIO-DESIGN WORK</a></p>
-        </div>
-        <div class="column">
-        <p>Site designed by:</p> 
-        <p>Mallory Pettegrew</p>
-        </div>
-        </div>
-    </footer>    
-</body>
+    </body>
 </html>
